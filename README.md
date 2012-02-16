@@ -1,1 +1,1 @@
-This is an iOS project designed to play Youtube videos
+This is an iOS project designed to play Youtube videos.

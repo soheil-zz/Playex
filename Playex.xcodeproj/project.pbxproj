@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BA5ADFE14ECDC17003CFF7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5ADFD14ECDC17003CFF7F /* UIKit.framework */; };
+		5BA5AE0014ECDC17003CFF7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5ADFF14ECDC17003CFF7F /* Foundation.framework */; };
+		5BA5AE0214ECDC17003CFF7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA5AE0114ECDC17003CFF7F /* CoreGraphics.framework */; };
+		5BA5AE0814ECDC17003CFF7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5AE0614ECDC17003CFF7F /* InfoPlist.strings */; };
+		5BA5AE0A14ECDC17003CFF7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5AE0914ECDC17003CFF7F /* main.m */; };
+		5BA5AE0E14ECDC17003CFF7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5AE0D14ECDC17003CFF7F /* AppDelegate.m */; };
+		5BA5AE1114ECDC17003CFF7F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5AE0F14ECDC17003CFF7F /* MainStoryboard_iPhone.storyboard */; };
+		5BA5AE1414ECDC17003CFF7F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5AE1214ECDC17003CFF7F /* MainStoryboard_iPad.storyboard */; };
+		5BA5AE1714ECDC17003CFF7F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5AE1614ECDC17003CFF7F /* FirstViewController.m */; };
+		5BA5AE1914ECDC17003CFF7F /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5AE1814ECDC17003CFF7F /* first.png */; };
+		5BA5AE1B14ECDC17003CFF7F /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5AE1A14ECDC17003CFF7F /* first@2x.png */; };
+		5BA5AE1E14ECDC17003CFF7F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5AE1D14ECDC17003CFF7F /* SecondViewController.m */; };
+		5BA5AE2014ECDC17003CFF7F /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5AE1F14ECDC17003CFF7F /* second.png */; };
+		5BA5AE2214ECDC17003CFF7F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA5AE2114ECDC17003CFF7F /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BA5ADF914ECDC17003CFF7F /* Playex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA5ADFD14ECDC17003CFF7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BA5ADFF14ECDC17003CFF7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BA5AE0114ECDC17003CFF7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BA5AE0514ECDC17003CFF7F /* Playex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Playex-Info.plist"; sourceTree = "<group>"; };
+		5BA5AE0714ECDC17003CFF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BA5AE0914ECDC17003CFF7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BA5AE0B14ECDC17003CFF7F /* Playex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playex-Prefix.pch"; sourceTree = "<group>"; };
+		5BA5AE0C14ECDC17003CFF7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BA5AE0D14ECDC17003CFF7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BA5AE1014ECDC17003CFF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5BA5AE1314ECDC17003CFF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5BA5AE1514ECDC17003CFF7F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5BA5AE1614ECDC17003CFF7F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5BA5AE1814ECDC17003CFF7F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		5BA5AE1A14ECDC17003CFF7F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		5BA5AE1C14ECDC17003CFF7F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5BA5AE1D14ECDC17003CFF7F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5BA5AE1F14ECDC17003CFF7F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		5BA5AE2114ECDC17003CFF7F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA5ADF614ECDC17003CFF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA5ADFE14ECDC17003CFF7F /* UIKit.framework in Frameworks */,
+				5BA5AE0014ECDC17003CFF7F /* Foundation.framework in Frameworks */,
+				5BA5AE0214ECDC17003CFF7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA5ADEE14ECDC17003CFF7F = {
+			isa = PBXGroup;
+			children = (
+				5BA5AE0314ECDC17003CFF7F /* Playex */,
+				5BA5ADFC14ECDC17003CFF7F /* Frameworks */,
+				5BA5ADFA14ECDC17003CFF7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA5ADFA14ECDC17003CFF7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5ADF914ECDC17003CFF7F /* Playex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA5ADFC14ECDC17003CFF7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5ADFD14ECDC17003CFF7F /* UIKit.framework */,
+				5BA5ADFF14ECDC17003CFF7F /* Foundation.framework */,
+				5BA5AE0114ECDC17003CFF7F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BA5AE0314ECDC17003CFF7F /* Playex */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5AE0C14ECDC17003CFF7F /* AppDelegate.h */,
+				5BA5AE0D14ECDC17003CFF7F /* AppDelegate.m */,
+				5BA5AE0F14ECDC17003CFF7F /* MainStoryboard_iPhone.storyboard */,
+				5BA5AE1214ECDC17003CFF7F /* MainStoryboard_iPad.storyboard */,
+				5BA5AE1514ECDC17003CFF7F /* FirstViewController.h */,
+				5BA5AE1614ECDC17003CFF7F /* FirstViewController.m */,
+				5BA5AE1814ECDC17003CFF7F /* first.png */,
+				5BA5AE1A14ECDC17003CFF7F /* first@2x.png */,
+				5BA5AE1C14ECDC17003CFF7F /* SecondViewController.h */,
+				5BA5AE1D14ECDC17003CFF7F /* SecondViewController.m */,
+				5BA5AE1F14ECDC17003CFF7F /* second.png */,
+				5BA5AE2114ECDC17003CFF7F /* second@2x.png */,
+				5BA5AE0414ECDC17003CFF7F /* Supporting Files */,
+			);
+			path = Playex;
+			sourceTree = "<group>";
+		};
+		5BA5AE0414ECDC17003CFF7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5AE0514ECDC17003CFF7F /* Playex-Info.plist */,
+				5BA5AE0614ECDC17003CFF7F /* InfoPlist.strings */,
+				5BA5AE0914ECDC17003CFF7F /* main.m */,
+				5BA5AE0B14ECDC17003CFF7F /* Playex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA5ADF814ECDC17003CFF7F /* Playex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA5AE2514ECDC17003CFF7F /* Build configuration list for PBXNativeTarget "Playex" */;
+			buildPhases = (
+				5BA5ADF514ECDC17003CFF7F /* Sources */,
+				5BA5ADF614ECDC17003CFF7F /* Frameworks */,
+				5BA5ADF714ECDC17003CFF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Playex;
+			productName = Playex;
+			productReference = 5BA5ADF914ECDC17003CFF7F /* Playex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA5ADF014ECDC17003CFF7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5BA5ADF314ECDC17003CFF7F /* Build configuration list for PBXProject "Playex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BA5ADEE14ECDC17003CFF7F;
+			productRefGroup = 5BA5ADFA14ECDC17003CFF7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA5ADF814ECDC17003CFF7F /* Playex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA5ADF714ECDC17003CFF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA5AE0814ECDC17003CFF7F /* InfoPlist.strings in Resources */,
+				5BA5AE1114ECDC17003CFF7F /* MainStoryboard_iPhone.storyboard in Resources */,
+				5BA5AE1414ECDC17003CFF7F /* MainStoryboard_iPad.storyboard in Resources */,
+				5BA5AE1914ECDC17003CFF7F /* first.png in Resources */,
+				5BA5AE1B14ECDC17003CFF7F /* first@2x.png in Resources */,
+				5BA5AE2014ECDC17003CFF7F /* second.png in Resources */,
+				5BA5AE2214ECDC17003CFF7F /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA5ADF514ECDC17003CFF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA5AE0A14ECDC17003CFF7F /* main.m in Sources */,
+				5BA5AE0E14ECDC17003CFF7F /* AppDelegate.m in Sources */,
+				5BA5AE1714ECDC17003CFF7F /* FirstViewController.m in Sources */,
+				5BA5AE1E14ECDC17003CFF7F /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BA5AE0614ECDC17003CFF7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA5AE0714ECDC17003CFF7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BA5AE0F14ECDC17003CFF7F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA5AE1014ECDC17003CFF7F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5BA5AE1214ECDC17003CFF7F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA5AE1314ECDC17003CFF7F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA5AE2314ECDC17003CFF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BA5AE2414ECDC17003CFF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA5AE2614ECDC17003CFF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playex/Playex-Prefix.pch";
+				INFOPLIST_FILE = "Playex/Playex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BA5AE2714ECDC17003CFF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playex/Playex-Prefix.pch";
+				INFOPLIST_FILE = "Playex/Playex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA5ADF314ECDC17003CFF7F /* Build configuration list for PBXProject "Playex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA5AE2314ECDC17003CFF7F /* Debug */,
+				5BA5AE2414ECDC17003CFF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA5AE2514ECDC17003CFF7F /* Build configuration list for PBXNativeTarget "Playex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA5AE2614ECDC17003CFF7F /* Debug */,
+				5BA5AE2714ECDC17003CFF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA5ADF014ECDC17003CFF7F /* Project object */;
+}
